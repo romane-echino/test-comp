@@ -1,0 +1,42 @@
+{
+  "name": "testcomp",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "author": "",
+  "scripts": {
+    "start": "node scripts/start.js",
+    "build": "webpack --config scripts/webpack-build.config.js"
+  },
+  "echino": {
+    "logo": "./company-logo.png",
+    "displayName": "testcomp"
+  },
+  "devDependencies": {
+    "@types/react": "^16.14.23",
+    "@types/react-dom": "^16.9.14",
+    "react": "^16.14.0",
+    "react-art": "^16.13.1",
+    "react-dom": "^16.14.0",
+    "typescript": "^3.9.10"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/plugin-proposal-object-rest-spread": "^7.17.3",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.6.0",
+    "fs-extra": "^10.0.1",
+    "rimraf": "^3.0.2",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "uuid": "^8.3.2",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}

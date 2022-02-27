@@ -1,0 +1,27 @@
+{
+  "name": "Sample Component",
+  "menu": "",
+  "defaultWidth": 160,
+  "defaultHeight": 24,
+  "props": [
+    {
+      "name": "placeholder",
+      "displayName": "Placeholder",
+      "type": "string",
+      "default": "ex: John Smith",
+      "required": true
+    },
+    {
+      "name": "onChange",
+      "displayName": "OnChange",
+      "type": "function",
+      "parameters": [
+        {
+          "name": "text",
+          "displayName": "Text",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}
